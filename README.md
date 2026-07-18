@@ -38,7 +38,7 @@
 - [x] Hook Patterns
 ---
 
-## 🟡 Level 3 — React Internals & Rendering
+## 🟡 Level 3 — [React Internals & Rendering](Level 3/level-3.md)
 
 - [x] Rendering Pipeline
 - [x] Fiber
