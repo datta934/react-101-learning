@@ -1,279 +1,223 @@
-# React Mastery Checklist
+# 🚀 React Master Handbook
+## 🟢 Level 0 — JavaScript Foundations
 
-# ⭐ LEVEL 0 — [JavaScript](00-js-fundamentals)
-
--   [ ] Variables
--   [ ] Scope & Closures
--   [ ] Hoisting
--   [ ] Execution Context
--   [ ] Event Loop
--   [ ] Callbacks
--   [ ] Promises
--   [ ] async/await
--   [ ] Objects
--   [ ] Arrays
--   [ ] Prototype
--   [ ] Classes
--   [ ] this
--   [ ] ES Modules
--   [ ] Destructuring
--   [ ] Spread/Rest
--   [ ] Template Literals
--   [ ] Optional Chaining
--   [ ] Nullish Coalescing
--   [ ] Higher Order Functions
--   [ ] map/filter/reduce
--   [ ] Immutability
--   [ ] Deep vs Shallow Copy
--   [ ] Functional Programming
--   [ ] Memory Management
-
-# ⭐ LEVEL 1 — [React Fundamentals](01-fundamentals.md)
-
--   [x] What is React?
--   [x] Virtual DOM
--   [x] Reconciliation
--   [x] Fiber Architecture
--   [x] JSX
--   [x] Functional Components
--   [x] Pure Components
--   [x] Props
--   [x] Component Composition
--   [x] Rendering
--   [x] Conditional Rendering
--   [x] Lists & Keys
--   [x] Fragments
--   [x] Portals
--   [x] Strict Mode
--   [x] Refs
--   [ ] Forward Ref
--   [x] Controlled Components
--   [x] Uncontrolled Components
--   [ ] Forms
-
-# ⭐ LEVEL 2 — [Hooks](02-hooks.md) 
-
--   [x] useState
--   [x] useEffect
--   [x] useRef
--   [x] useMemo
--   [x] useCallback
--   [x] useContext
--   [x] useReducer
--   [x] useLayoutEffect
--   [x] useImperativeHandle
--   [x] useId
--   [x] useTransition
--   [x] useDeferredValue
--   [x] useSyncExternalStore
--   [x] useInsertionEffect
--   [x] Custom Hooks
--   [x] Rules of Hooks
-
-# ⭐ LEVEL 3 — React Rendering & Internals
-
-## Rendering Pipeline
-- [x] What happens after setState()
-- [x] Update Queue
-- [x] Scheduler
-- [x] Fiber Architecture
-- [x] Fiber Nodes - Work loop - Alternate Fiber Tree
-- [x] Render Phase
-- [x] Commit Phase
-- [x] Browser Paint
-- [x] useEffect Timing
-- [x] useLayoutEffect
-
-## Rendering Behaviour
-- [ ] Why Components Re-render
-- [ ] Parent → Child Rendering
-- [ ] Reconciliation Internals
-- [ ] Diffing Algorithm
-- [ ] Automatic Batching
-- [ ] Functional Updates
-- [ ] React.memo Internals
-- [ ] Concurrent Rendering
-- [ ] Suspense (Rendering Perspective)
+- [x] JS Execution Model
+- [x] Scope & Closures
+- [x] Objects & References
+- [x] Event Loop
+- [x] Async JavaScript
+- [x] ES6+
+- [x] Interview Revision
 
 ---
 
-# ⭐ LEVEL 4 — State Management
+## 🟢 Level 1 — React Fundamentals
 
-## State Fundamentals
+- [x] Components
+- [x] JSX
+- [x] Props
+- [x] State
+- [x] Events
+- [x] Conditional Rendering
+- [x] Lists & Keys
+- [x] Component Composition
+- [x] Virtual DOM
+- [x] React Lifecycle
+
+---
+
+## 🟢 Level 2 — Hooks
+
+- [x] Rules of Hooks
+- [x] useState
+- [x] useEffect
+- [x] useRef
+- [x] useMemo
+- [x] useCallback
+- [x] Custom Hooks
+- [x] Hook Patterns
+---
+
+## 🟡 Level 3 — React Internals & Rendering
+
+- [x] Rendering Pipeline
+- [x] Fiber
+- [x] Work Loop
+- [x] Alternate Fiber Tree
+- [x] Reconciliation
+- [x] Rendering Behaviour
+- [ ] React.memo Deep Dive
+- [ ] useMemo Internals
+- [ ] useCallback Internals
+- [ ] Rendering Optimization
+- [ ] Concurrent Rendering
+- [ ] Suspense
+- [ ] Performance Debugging
+
+---
+
+## ⚪ Level 4 — State Management
+
 - [ ] Local State
-- [ ] Shared State
 - [ ] Lift State Up
-- [ ] State Ownership
-- [ ] State Colocation
-- [ ] Derived State
-- [ ] Avoid Duplicate State
-- [ ] Client State
-- [ ] Server State
-- [ ] URL State
-- [ ] Cache State
-- [ ] Persisted State
-
-## Context API
-- [ ] Context
-- [ ] Context Performance
-- [ ] Context Splitting
-
-## Reducers
-- [ ] useReducer Deep Dive
-- [ ] Context + Reducer
-
-## Global State
+- [ ] Context API
+- [ ] useReducer
 - [ ] Redux Toolkit
-- [ ] Redux DevTools
-- [ ] AsyncThunk
 - [ ] RTK Query
 - [ ] Zustand
 - [ ] Jotai
-- [ ] MobX (Overview)
+- [ ] MobX Overview
+- [ ] Server State
 
-## Decision Making
-- [ ] Which state belongs where?
-- [ ] State Architecture
+📄 Details → 05-Level-4-State-Management.md
 
 ---
 
-# ⭐ LEVEL 5 — Data Fetching
+## ⚪ Level 5 — Data Fetching
 
 - [ ] Fetch API
 - [ ] Axios
 - [ ] React Query
-- [ ] RTK Query Deep Dive
+- [ ] SWR
 - [ ] Caching
-- [ ] Cache Invalidation
 - [ ] Optimistic Updates
 - [ ] Infinite Queries
 - [ ] Pagination
-- [ ] Polling
-- [ ] Retry
-- [ ] Prefetching
+
+📄 Details → 06-Level-5-Data-Fetching.md
 
 ---
 
-# ⭐ LEVEL 6 — Routing
-
-- [ ] React Router
-- [ ] Nested Routes
-- [ ] Layout Routes
-- [ ] Protected Routes
-- [ ] Route Guards
-- [ ] Dynamic Routes
-- [ ] Search Params
-- [ ] Loaders
-- [ ] Lazy Routes
-
----
-
-# ⭐ LEVEL 7 — Forms
+## ⚪ Level 6 — Forms
 
 - [ ] Controlled Forms
 - [ ] Uncontrolled Forms
 - [ ] React Hook Form
-- [ ] Formik (Overview)
-- [ ] Yup
-- [ ] Zod
+- [ ] Formik
+- [ ] Validation
+- [ ] Dynamic Forms
+
+📄 Details → 07-Level-6-Forms.md
 
 ---
 
-# ⭐ LEVEL 8 — Performance
+## ⚪ Level 7 — Routing
 
-- [ ] React.memo
-- [ ] useMemo
-- [ ] useCallback
+- [ ] React Router
+- [ ] Nested Routes
+- [ ] Protected Routes
+- [ ] Lazy Routes
+- [ ] Navigation
+
+📄 Details → 08-Level-7-Routing.md
+
+---
+
+## ⚪ Level 8 — Performance
+
 - [ ] Lazy Loading
-- [ ] Suspense
 - [ ] Code Splitting
-- [ ] Bundle Analysis
-- [ ] Tree Shaking
 - [ ] Virtualization
-- [ ] React Profiler
+- [ ] Bundle Analysis
+- [ ] Memoization Strategy
+
+📄 Details → 09-Level-8-Performance.md
 
 ---
 
-# ⭐ LEVEL 9 — Testing
+## ⚪ Level 9 — Testing
 
 - [ ] Jest
-- [ ] React Testing Library
+- [ ] RTL
 - [ ] Mocking
-- [ ] Integration Testing
-- [ ] Snapshot Testing
-- [ ] Accessibility Testing
+- [ ] Integration Tests
+- [ ] E2E
+
+📄 Details → 10-Level-9-Testing.md
 
 ---
 
-# ⭐ LEVEL 10 — Accessibility
+## ⚪ Level 10 — Architecture
+
+- [ ] Folder Structure
+- [ ] Feature Based Architecture
+- [ ] Atomic Design
+- [ ] Clean Architecture
+- [ ] Micro Frontends
+
+📄 Details → 11-Level-10-Architecture.md
+
+---
+
+## ⚪ Level 11 — Accessibility
 
 - [ ] Semantic HTML
 - [ ] ARIA
 - [ ] Keyboard Navigation
-- [ ] Focus Management
 - [ ] Screen Readers
+- [ ] WCAG
+
+📄 Details → 12-Level-11-Accessibility.md
 
 ---
 
-# ⭐ LEVEL 11 — React 19
-
-- [ ] use()
-- [ ] Actions
-- [ ] Server Components
-- [ ] Server Actions
-- [ ] React Compiler
-
----
-
-# ⭐ LEVEL 12 — React Patterns
+## ⚪ Level 12 — Design Patterns
 
 - [ ] Compound Components
 - [ ] Render Props
-- [ ] HOCs
+- [ ] HOC
 - [ ] Provider Pattern
-- [ ] Container vs Presentational
-- [ ] Custom Hook Pattern
+- [ ] Container/Presentational
+- [ ] Headless Components
+
+📄 Details → 13-Level-12-Patterns.md
 
 ---
 
-# ⭐ LEVEL 13 — Animations
+## ⚪ Level 13 — TypeScript
 
-- [ ] Framer Motion
-- [ ] CSS Animations
-- [ ] React Transition Group
+- [ ] TS Basics
+- [ ] React + TS
+- [ ] Generics
+- [ ] Utility Types
+- [ ] Advanced Types
 
----
-
-# ⭐ LEVEL 14 — Architecture
-
-- [ ] Folder Structure
-- [ ] Feature-based Architecture
-- [ ] Design Systems
-- [ ] Module Federation
-- [ ] Microfrontends
-- [ ] Error Boundaries
-- [ ] Logging
-- [ ] Monitoring
+📄 Details → 14-Level-13-TypeScript.md
 
 ---
 
-# ⭐ LEVEL 15 — Frontend System Design
+## ⚪ Level 14 — React Ecosystem
 
-- [ ] Component Design
-- [ ] State Strategy
-- [ ] Rendering Strategy
-- [ ] Performance Strategy
-- [ ] Scalability
-- [ ] Caching Strategy
+- [ ] Vite
+- [ ] ESLint
+- [ ] Prettier
+- [ ] Storybook
+- [ ] Tailwind
+- [ ] Component Libraries
+
+📄 Details → 15-Level-14-Ecosystem.md
 
 ---
 
-# ⭐ LEVEL 16 — Production
+## ⚪ Level 15 — SSR / RSC
 
-- [ ] Environment Variables
-- [ ] Build Optimization
-- [ ] CI/CD
-- [ ] Docker Basics
-- [ ] CDN
-- [ ] Monitoring
-- [ ] Error Tracking
+- [ ] SSR
+- [ ] SSG
+- [ ] ISR
+- [ ] Hydration
+- [ ] React Server Components
+- [ ] Streaming
+
+📄 Details → 16-Level-15-SSR-RSC.md
+
+---
+
+## ⚪ Level 16 — Interview Revision
+
+- [ ] Frequently Asked Questions
+- [ ] React Internals Revision
+- [ ] Performance Revision
+- [ ] Architecture Revision
+- [ ] Mock Interviews
+
+📄 Details → 17-Level-16-Interview-Revision.md
