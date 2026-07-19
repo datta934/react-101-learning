@@ -100,11 +100,11 @@
 
 ### Deep Dive
 
-- [ ] Shallow Comparison
-- [ ] Reference Equality
-- [ ] Primitive vs Reference Values
-- [ ] Object Identity
-- [ ] Function Identity
+- [x] Shallow Comparison
+- [x] Reference Equality
+- [x] Primitive vs Reference Values
+- [x] Object Identity
+- [x] Function Identity
 - [ ] Custom Comparator (areEqual)
 - [ ] Memoization Cost
 - [ ] When NOT to use React.memo
