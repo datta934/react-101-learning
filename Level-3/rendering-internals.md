@@ -47,3 +47,6 @@
 | Code Splitting      | Download only what's needed            |
 | Dynamic Imports     | Fetch code when required               |
 
+## 3.11 Automatic Batching and 3.12 Concurrent Rendering
+<img width="1536" height="1024" alt="3 11and3 12" src="https://github.com/user-attachments/assets/3c11612d-5a33-47bf-9398-0796899bce5d" />
+
