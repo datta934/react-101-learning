@@ -105,34 +105,34 @@
 - [x] Primitive vs Reference Values
 - [x] Object Identity
 - [x] Function Identity
-- [ ] Custom Comparator (areEqual)
-- [ ] Memoization Cost
-- [ ] When NOT to use React.memo
+- [x] Custom Comparator (areEqual)
+- [x] Memoization Cost
+- [x] When NOT to use React.memo
 
 ---
 
 ## 3.8 useMemo
 
-- [ ] Why useMemo
-- [ ] Dependency Array
-- [ ] Cache Lifecycle
-- [ ] Expensive Calculations
-- [ ] Derived Data
-- [ ] Object Memoization
-- [ ] Array Memoization
-- [ ] Common Mistakes
+- [x] Why useMemo
+- [x] Dependency Array
+- [x] Cache Lifecycle
+- [x] Expensive Calculations
+- [x] Derived Data
+- [x] Object Memoization
+- [x] Array Memoization
+- [x] Common Mistakes
 
 ---
 
 ## 3.9 useCallback
 
-- [ ] Why useCallback
-- [ ] Function Identity
-- [ ] Stable References
-- [ ] Parent → Child Optimization
-- [ ] Dependency Array
-- [ ] Stale Closures
-- [ ] Common Mistakes
+- [x] Why useCallback
+- [x] Function Identity
+- [x] Stable References
+- [x] Parent → Child Optimization
+- [x] Dependency Array
+- [x] Stale Closures
+- [x] Common Mistakes
 
 ---
 

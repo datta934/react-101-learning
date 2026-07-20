@@ -48,3 +48,41 @@ Skip Child  Render Child
 | Inline Array Props | ❌ Not useful *(unless memoized)* | New array every render |
 | Inline Callback Props | ❌ Not useful *(unless memoized)* | New function every render |
 | Expensive Custom Comparator | ❌ Usually No | Comparison may cost more than rendering |
+
+
+| React.memo                        | useMemo                              |
+| --------------------------------- | ------------------------------------ |
+| Optimizes **component rendering** | Optimizes **expensive calculations** |
+| Compares props                    | Compares dependencies                |
+| May skip component execution      | May skip recalculating a value       |
+| Used around components            | Used inside components               |
+| Works well with stable references | Produces stable values/references    |
+
+
+
+```                Parent renders
+                       │
+         ┌─────────────┼─────────────┐
+         │                           │
+Need stable value?         Need stable function?
+         │                           │
+         ▼                           ▼
+     useMemo                  useCallback
+         │                           │
+         └─────────────┬─────────────┘
+                       │
+               Stable References
+                       │
+                       ▼
+                 React.memo
+                       │
+              Shallow Compare
+                       │
+                 Same Reference?
+                  /          \
+                Yes          No
+                 │            │
+          Skip Child     Render Child
+```
+
+![alt text](memo,usememo,callback.png)
