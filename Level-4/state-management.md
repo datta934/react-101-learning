@@ -22,4 +22,5 @@
 | Server owns the data                   | RTK Query / React Query | Products, Orders, Profile       |
 
 
-# 4.2 Context API
+## 4.2 Context API
+<img width="1536" height="1024" alt="4 2" src="https://github.com/user-attachments/assets/d9ad6c2a-c078-427f-9c74-9ce42186f9c6" />
