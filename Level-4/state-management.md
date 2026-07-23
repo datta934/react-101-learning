@@ -35,5 +35,40 @@
 ## 4.5 RTK Query
 <img width="1536" height="1024" alt="4 5" src="https://github.com/user-attachments/assets/8346737e-572f-4bc6-911d-b9e8775fcdcd" />
 
+## 4.6-4.8 Zustand, Jotai & MobX
+
+### Definition
+
+| Library           | Philosophy                    | Best For                  | Mental Model                               |
+| ----------------- | ----------------------------- | ------------------------- | ------------------------------------------ |
+| **Redux Toolkit** | Predictable centralized state | Large enterprise apps     | One centralized store with reducers        |
+| **Zustand**       | Minimal global state          | Most modern React apps    | `useState` for the whole app               |
+| **Jotai**         | Atomic state                  | Complex independent state | Everything is an Atom                      |
+| **MobX**          | Reactive OOP                  | Enterprise/OOP teams      | Observable objects automatically update UI |
+
+### Comparison
+
+| Feature              | Redux Toolkit | Zustand   | Jotai     | MobX      |
+| -------------------- | ------------- | --------- | --------- | --------- |
+| Boilerplate          | High          | Very Low  | Low       | Low       |
+| Learning Curve       | Medium        | Easy      | Medium    | Medium    |
+| DevTools             | Excellent     | Good      | Good      | Good      |
+| Performance          | Excellent     | Excellent | Excellent | Excellent |
+| Predictability       | Excellent     | Good      | Good      | Medium    |
+| Automatic Reactivity | ❌             | ❌         | ❌         | ✅         |
+| Best for Enterprise  | ⭐⭐⭐⭐⭐         | ⭐⭐⭐⭐      | ⭐⭐⭐       | ⭐⭐⭐⭐      |
+
+### When to choose what
+
+| Scenario                 | Best Choice             | Why                            |
+| ------------------------ | ----------------------- | ------------------------------ |
+| Small App                | Context                 | Simple shared state            |
+| Medium App               | Zustand                 | Fast setup, little boilerplate |
+| Large Enterprise         | Redux Toolkit           | Structure and predictability   |
+| Highly Independent State | Jotai                   | Atomic updates                 |
+| Finance / ERP            | MobX                    | Reactive business logic        |
+| API Data                 | RTK Query / React Query | Server state                   |
+
+
 ## 4.9 Server State
 <img width="1536" height="1024" alt="4 9" src="https://github.com/user-attachments/assets/287824c2-4c6e-4a08-9040-5b3ba2b34786" />
