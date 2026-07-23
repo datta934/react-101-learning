@@ -29,5 +29,11 @@
 ## 4.3 useReducer
 <img width="1536" height="1024" alt="4 3" src="https://github.com/user-attachments/assets/d8b13f5a-1860-4039-8fb3-1b93a73be06c" />
 
-## 4.3 Redux Toolkit (RTK)
+## 4.4 Redux Toolkit (RTK)
 <img width="1536" height="1024" alt="4 4" src="https://github.com/user-attachments/assets/4f681feb-133e-43ee-8188-9a13c8cf4535" />
+
+## 4.5 RTK Query
+<img width="1536" height="1024" alt="4 5" src="https://github.com/user-attachments/assets/8346737e-572f-4bc6-911d-b9e8775fcdcd" />
+
+## 4.9 Server State
+<img width="1536" height="1024" alt="4 9" src="https://github.com/user-attachments/assets/287824c2-4c6e-4a08-9040-5b3ba2b34786" />
