@@ -71,12 +71,12 @@
 
 ---
 
-## Level 5 — Data Fetching
+## Level 5 — [Data Fetching](Level-5/level-5.md)
 
-- [ ] Fetch API
-- [ ] Axios
-- [ ] React Query
-- [ ] SWR
+- [x] Fetch API
+- [x] Axios
+- [x] React Query
+- [x] SWR
 - [ ] Caching
 - [ ] Optimistic Updates
 - [ ] Infinite Queries
