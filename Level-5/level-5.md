@@ -1,8 +1,4 @@
 # 🟡 Level 5 — Data Fetching
-
-> Goal:
-> Learn modern data fetching, caching, synchronization, and server state management in React.
-
 ---
 
 # 5.1 Fetch API
@@ -88,10 +84,3 @@
 - [ ] Best Practices
 
 ---
-
-# 🎯 Lead UI Architecture
-
-- [ ] Choosing Fetch Strategy
-- [ ] Client vs Server State
-- [ ] Caching Strategies
-- [ ] Interview Scenarios
