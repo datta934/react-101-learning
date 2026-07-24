@@ -1,86 +1,84 @@
-# 🟡 Level 5 — Data Fetching
+## Level 5 — Data Fetching
 ---
 
 # 5.1 Fetch API
 
-- [ ] What is Fetch API?
-- [ ] GET Requests
-- [ ] POST Requests
-- [ ] Headers
-- [ ] Request Body
-- [ ] Error Handling
-- [ ] AbortController
-- [ ] Loading & Error States
+- [x] What is Fetch API?
+- [x] GET Requests
+- [x] POST Requests
+- [x] Headers
+- [x] Request Body
+- [x] Error Handling
+- [x] AbortController
+- [x] Loading & Error States
 
 ---
 
 # 5.2 Axios
 
-- [ ] Why Axios?
-- [ ] Axios Instance
-- [ ] Interceptors
-- [ ] Request Configuration
-- [ ] Error Handling
-- [ ] Cancellation
+- [x] Why Axios?
+- [x] Axios Instance
+- [x] Interceptors
+- [x] Request Configuration
+- [x] Error Handling
+- [x] Cancellation
 
 ---
 
 # 5.3 React Query (TanStack Query)
 
-- [ ] Why React Query?
-- [ ] QueryClient
-- [ ] useQuery
-- [ ] useMutation
-- [ ] Query Keys
-- [ ] Cache Lifecycle
-- [ ] Stale Time
-- [ ] Garbage Collection
+- [x] Why React Query?
+- [x] QueryClient
+- [x] useQuery
+- [x] useMutation
+- [x] Query Keys
+- [x] Cache Lifecycle
+- [x] Stale Time
+- [x] Garbage Collection
 
 ---
 
 # 5.4 SWR
 
-- [ ] SWR Basics
-- [ ] Revalidation
-- [ ] Cache
-- [ ] Mutations
-- [ ] Comparison with React Query
+- [x] SWR Basics
+- [x] Revalidation
+- [x] Cache
+- [x] Mutations
+- [x] Comparison with React Query
 
 ---
 
 # 5.5 Caching
 
-- [ ] Client Cache
-- [ ] Server Cache
-- [ ] Cache Invalidation
-- [ ] Background Refetch
-- [ ] Stale While Revalidate
+- [x] Client Cache
+- [x] Server Cache
+- [x] Cache Invalidation
+- [x] Background Refetch
+- [x] Stale While Revalidate
 
 ---
 
 # 5.6 Optimistic Updates
 
-- [ ] Why Optimistic Updates?
-- [ ] Rollback
-- [ ] Error Recovery
-- [ ] UX Considerations
+- [x] Why Optimistic Updates?
+- [x] Rollback
+- [x] Error Recovery
+- [x] UX Considerations
 
 ---
 
 # 5.7 Infinite Queries
 
-- [ ] Infinite Scroll
-- [ ] Load More
-- [ ] Cursor Pagination
-- [ ] Offset Pagination
+- [x] Infinite Scroll
+- [x] Load More
+- [x] Cursor Pagination
+- [x] Offset Pagination
 
 ---
 
 # 5.8 Pagination
 
-- [ ] Client-side Pagination
-- [ ] Server-side Pagination
-- [ ] Performance
-- [ ] Best Practices
-
----
+- [x] Client-side Pagination
+- [x] Server-side Pagination
+- [x] Performance
+- [x] Best Practices

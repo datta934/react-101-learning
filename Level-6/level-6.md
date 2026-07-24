@@ -1,7 +1,4 @@
-# 🟢 Level 6 — Forms
-
-> Goal:
-> Master form handling, validation, and scalable form architecture.
+## Level 6 — Forms
 
 ---
 
@@ -58,11 +55,3 @@
 - [ ] Multi-step Forms
 - [ ] JSON Driven Forms
 
----
-
-# 🎯 Lead UI Architecture
-
-- [ ] Enterprise Forms
-- [ ] Form Performance
-- [ ] Accessibility
-- [ ] Interview Scenarios
