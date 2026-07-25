@@ -81,21 +81,41 @@ Redux?
 
 ## 5.5 - 5.8
 ```
-Backend
-    │
-    ▼
-HTTP Client (Fetch / Axios)
-    │
-    ▼
-Server State Library
-(RTK Query / React Query / SWR)
-    │
-    ▼
-Cache
-    │
-    ├── Background Refetch
-    ├── Stale While Revalidate
-    ├── Optimistic Updates
-    ├── Infinite Queries
-    └── Pagination
+                    Backend
+                       │
+              HTTP Request
+                       │
+         ┌─────────────┴─────────────┐
+         │                           │
+      Fetch                      Axios
+ (Native HTTP)             (Enterprise HTTP)
+         │                           │
+         └─────────────┬─────────────┘
+                       │
+                Server State Layer
+         ┌─────────────┼─────────────┐
+         │             │             │
+    React Query     RTK Query       SWR
+         │             │             │
+         └─────────────┼─────────────┘
+                       │
+          Cache • Retry • Refetch
+          Optimistic Updates
+          Pagination
+          Infinite Queries
+          Background Sync
+                       │
+                React Components
+```
+
+```
+| Wrong                            | Correct                      |
+| -------------------------------- | ---------------------------- |
+| Axios caches                     | ❌ React Query caches         |
+| Context replaces Redux           | ❌ Different responsibilities |
+| React Query replaces Axios       | ❌ Uses Axios/Fetch           |
+| Fetch throws on 404              | ❌ Check `response.ok`        |
+| Optimistic updates everywhere    | ❌ Only when rollback is safe |
+| Infinite scroll is always better | ❌ Depends on UX              |
+
 ```
