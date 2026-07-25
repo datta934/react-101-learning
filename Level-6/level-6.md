@@ -1,57 +1,46 @@
 ## Level 6 — Forms
 
----
-
-# 6.1 Controlled Forms
-
-- [ ] Controlled Components
-- [ ] Form State
-- [ ] Validation
-- [ ] Submission
+## 6.1 Form Fundamentals
+- [x] Controlled Components
+- [x] Uncontrolled Components
+- [x] Form State
+- [x] Form Submission
+- [x] Controlled vs Uncontrolled
 
 ---
 
-# 6.2 Uncontrolled Forms
-
-- [ ] Refs
-- [ ] FormData
-- [ ] When to Use
-
----
-
-# 6.3 React Hook Form
-
-- [ ] useForm
-- [ ] register
-- [ ] Controller
-- [ ] FormProvider
-- [ ] useFieldArray
-- [ ] Performance
+## 6.2 Validation
+- [x] Client Validation
+- [x] Async Validation
+- [x] Schema Validation
+- [x] Error Messages
+- [x] Validation UX
 
 ---
 
-# 6.4 Formik
-
-- [ ] Formik Basics
-- [ ] Yup Validation
-- [ ] Field
-- [ ] Form
-
----
-
-# 6.5 Validation
-
-- [ ] Client Validation
-- [ ] Async Validation
-- [ ] Schema Validation
-- [ ] Error Messages
+## 6.3 React Hook Form
+- [x] useForm
+- [x] register
+- [x] Controller
+- [x] FormProvider
+- [x] useFieldArray
+- [x] Performance
 
 ---
 
-# 6.6 Dynamic Forms
+## 6.4 Formik
+- [x] Formik Basics
+- [x] Yup Validation
+- [x] Field
+- [x] Form
+- [x] RHF vs Formik
 
-- [ ] Dynamic Fields
-- [ ] Nested Forms
-- [ ] Multi-step Forms
-- [ ] JSON Driven Forms
+---
 
+## 6.5 Dynamic Forms
+- [x] Dynamic Fields
+- [x] Nested Forms
+- [x] Multi-step Forms
+- [x] JSON Driven Forms
+
+---

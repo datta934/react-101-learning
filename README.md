@@ -77,22 +77,22 @@
 - [x] Axios
 - [x] React Query
 - [x] SWR
-- [ ] Caching
-- [ ] Optimistic Updates
-- [ ] Infinite Queries
-- [ ] Pagination
+- [x] Caching
+- [x] Optimistic Updates
+- [x] Infinite Queries
+- [x] Pagination
 
 
 ---
 
-## Level 6 — Forms
+## Level 6 — [Forms](Level-6/level-6.md)
 
-- [ ] Controlled Forms
-- [ ] Uncontrolled Forms
-- [ ] React Hook Form
-- [ ] Formik
-- [ ] Validation
-- [ ] Dynamic Forms
+- [x] Controlled Forms
+- [x] Uncontrolled Forms
+- [x] React Hook Form
+- [x] Formik
+- [x] Validation
+- [x] Dynamic Forms
 
 ---
 
