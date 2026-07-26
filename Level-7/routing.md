@@ -1,6 +1,8 @@
 ## 7.1 Routing Fundamentals and 7.2 Nested Routing
+<img width="1536" height="1024" alt="7 2" src="https://github.com/user-attachments/assets/344427f1-f175-4401-ba0e-6dd5e61d2430" />
 
 ## 7.3 Protected Routing
+<img width="1536" height="1024" alt="7 3" src="https://github.com/user-attachments/assets/2cd20a30-2d83-4dc2-b9a8-2952616477a6" />
 
 ## 7.4 Lazy Routes
 Lazy Route
