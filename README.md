@@ -98,11 +98,11 @@
 
 ## Level 7 — Routing
 
-- [ ] React Router
-- [ ] Nested Routes
-- [ ] Protected Routes
-- [ ] Lazy Routes
-- [ ] Navigation
+- [x] React Router
+- [x] Nested Routes
+- [x] Protected Routes
+- [x] Lazy Routes
+- [x] Navigation
 
 ---
 
