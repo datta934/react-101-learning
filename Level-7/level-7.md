@@ -1,6 +1,7 @@
 ## Level 7 — Routing
 
 ---
+
 # 7.1 Routing Fundamentals
 
 ## React Router Basics

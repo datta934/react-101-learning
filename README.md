@@ -106,7 +106,7 @@
 
 ---
 
-## Level 8 — Performance
+## Level 8 — [Performance](Level-8/level-8.md)
 
 - [ ] Lazy Loading
 - [ ] Code Splitting

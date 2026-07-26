@@ -1,49 +1,76 @@
-# 🟣 Level 8 — Performance
+## Level 8 — Performance
 
 ---
 
-# 8.1 Lazy Loading
+# 8.1 Lazy Loading & Code Splitting
 
-- [ ] React.lazy
-- [ ] Dynamic Imports
-- [ ] Suspense
+## Lazy Loading
+- [x] Why Lazy Loading?
+- [x] React.lazy()
+- [x] Suspense
+- [x] Loading Fallbacks
 
----
-
-# 8.2 Code Splitting
-
-- [ ] Bundle Splitting
-- [ ] Route Splitting
-- [ ] Component Splitting
-
----
-
-# 8.3 Virtualization
-
-- [ ] react-window
-- [ ] react-virtualized
-- [ ] Infinite Lists
+## Code Splitting
+- [x] Route-based Code Splitting
+- [x] Component-based Code Splitting
+- [x] Dynamic Imports
+- [x] Bundle Splitting Strategy
 
 ---
 
-# 8.4 Bundle Analysis
+# 8.2 Rendering Optimization
 
-- [ ] Bundle Analyzer
-- [ ] Tree Shaking
-- [ ] Dead Code
+## Memoization
+- [x] React.memo
+- [x] useMemo
+- [x] useCallback
+- [x] When NOT to Memoize
+
+## Rendering
+- [x] Preventing Unnecessary Re-renders
+- [x] Component Splitting
+- [x] State Colocation
+- [x] Context Splitting
 
 ---
 
-# 8.5 Memoization Strategy
+# 8.3 Large Lists
 
-- [ ] React.memo
-- [ ] useMemo
-- [ ] useCallback
-- [ ] Performance Decision Tree
+## Virtualization
+- [x] Why Virtualization?
+- [x] Windowing
+- [x] react-window
+- [x] react-virtualized
+
+## Pagination
+- [x] Pagination vs Infinite Scroll
+- [x] Infinite Scroll Performance
 
 ---
 
-# 🎯 Lead UI Architecture
+# 8.4 Bundle Optimization
 
-- [ ] Performance Budget
-- [ ] Optimization Strategy
+## Bundle Analysis
+- [x] Bundle Analyzer
+- [x] Large Dependencies
+- [x] Tree Shaking
+- [x] Dead Code Elimination
+- [x] Dynamic Imports
+
+---
+
+# 8.5 Performance Monitoring
+
+## Measuring Performance
+- [x] Lighthouse
+- [x] React DevTools Profiler
+- [x] Core Web Vitals (LCP, INP, CLS)
+- [x] Chrome Performance Tab
+
+## Optimization Strategy
+- [x] CPU vs Network Bottlenecks
+- [x] Rendering vs Fetching
+- [x] Performance Budget
+
+---
+
