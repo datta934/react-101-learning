@@ -108,22 +108,22 @@
 
 ## Level 8 — [Performance](Level-8/level-8.md)
 
-- [ ] Lazy Loading
-- [ ] Code Splitting
-- [ ] Virtualization
-- [ ] Bundle Analysis
-- [ ] Memoization Strategy
+- [x] Lazy Loading
+- [x] Code Splitting
+- [x] Virtualization
+- [x] Bundle Analysis
+- [x] Memoization Strategy
 
 
 ---
 
-## Level 9 — Testing
+## Level 9 — [Testing](Level-9/level-9.md)
 
-- [ ] Jest
-- [ ] RTL
-- [ ] Mocking
-- [ ] Integration Tests
-- [ ] E2E
+- [x] Jest
+- [x] RTL
+- [x] Mocking
+- [x] Integration Tests
+- [x] E2E
 
 
 ---
