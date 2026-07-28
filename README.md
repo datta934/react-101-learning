@@ -128,13 +128,13 @@
 
 ---
 
-## Level 10 — Architecture
+## Level 10 — [Architecture](Level-10/level-10.md)
 
-- [ ] Folder Structure
-- [ ] Feature Based Architecture
-- [ ] Atomic Design
-- [ ] Clean Architecture
-- [ ] Micro Frontends
+- [x] Folder Structure
+- [x] Feature Based Architecture
+- [x] Atomic Design
+- [x] Clean Architecture
+- [x] Micro Frontends
 
 
 ---
