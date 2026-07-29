@@ -1,4 +1,4 @@
-# 🟡 Level 12 — Design Patterns
+## Level 12 — Design Patterns
 
 - [ ] Compound Components
 - [ ] Render Props
