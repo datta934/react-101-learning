@@ -3,15 +3,15 @@
 
 ## 12.1 Container / Presentational Pattern
 
-- [ ] What is the pattern?
-- [ ] Smart vs Dumb Components
-- [ ] Separation of Concerns
-- [ ] Benefits
-- [ ] Drawbacks
-- [ ] Modern React Perspective
-- [ ] When to Use
-- [ ] When NOT to Use
-- [ ] Interview Questions
+- [x] What is the pattern?
+- [x] Smart vs Dumb Components
+- [x] Separation of Concerns
+- [x] Benefits
+- [x] Drawbacks
+- [x] Modern React Perspective
+- [x] When to Use
+- [x] When NOT to Use
+- [x] Interview Questions
 
 ---
 
