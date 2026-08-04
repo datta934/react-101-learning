@@ -153,14 +153,14 @@
 
 ---
 
-## Level 12 — Design Patterns
+## Level 12 — [Design Patterns](Level-12.md)
 
-- [ ] Compound Components
-- [ ] Render Props
-- [ ] HOC
-- [ ] Provider Pattern
-- [ ] Container/Presentational
-- [ ] Headless Components
+- [x] Compound Components
+- [x] Render Props
+- [x] HOC
+- [x] Provider Pattern
+- [x] Container/Presentational
+- [x] Headless Components
 
 ---
 
