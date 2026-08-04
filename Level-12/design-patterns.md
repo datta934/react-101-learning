@@ -29,6 +29,25 @@
 >"HOCs remain important to understand because many enterprise applications and older libraries use them. However, for new React development, I generally prefer custom hooks since they provide the same logic reuse without adding wrapper components."
 
 
+## 12.3 Render props
+- Just like HOCs, Render Props were invented to reuse logic.
+- A prop whose value is a function that returns JSX.
+- Example:
+```javascript
+<MouseTracker
+    render={(mouse) => (
+        <div>
+            {mouse.x}
+        </div>
+    )}
+/>
+```
+- MouseTracker owns State, Logic. You decide UI
+- Hooks replace render props - Hooks provide the same logic reuse with significantly less nesting, better readability, and a simpler component tree.
+
+>"Would you choose HOC or Render Props today?" --> "Neither for a new React application. I would generally choose a custom hook because it separates reusable logic from UI without introducing wrapper components or nested render functions. However, I'm comfortable working with both HOCs and Render Props when maintaining existing enterprise codebases."
+
+
 
 
 

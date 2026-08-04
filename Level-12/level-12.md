@@ -17,30 +17,30 @@
 
 ## 12.2 Higher Order Components (HOC)
 
-- [ ] What is an HOC?
-- [ ] withAuth()
-- [ ] withLoading()
-- [ ] Cross-cutting Concerns
-- [ ] Composition vs Inheritance
-- [ ] Advantages
-- [ ] Drawbacks
-- [ ] Why Hooks Replaced Most HOCs
-- [ ] When to Use
-- [ ] Interview Questions
+- [x] What is an HOC?
+- [x] withAuth()
+- [x] withLoading()
+- [x] Cross-cutting Concerns
+- [x] Composition vs Inheritance
+- [x] Advantages
+- [x] Drawbacks
+- [x] Why Hooks Replaced Most HOCs
+- [x] When to Use
+- [x] Interview Questions
 
 ---
 
 ## 12.3 Render Props
 
-- [ ] What are Render Props?
-- [ ] children as Function
-- [ ] Data Sharing
-- [ ] Reusability
-- [ ] Advantages
-- [ ] Drawbacks
-- [ ] Hooks vs Render Props
-- [ ] Existing Library Examples
-- [ ] Interview Questions
+- [x] What are Render Props?
+- [x] children as Function
+- [x] Data Sharing
+- [x] Reusability
+- [x] Advantages
+- [x] Drawbacks
+- [x] Hooks vs Render Props
+- [x] Existing Library Examples
+- [x] Interview Questions
 
 ---
 
