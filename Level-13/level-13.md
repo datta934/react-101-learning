@@ -1,6 +1,6 @@
-# 🔷 Level 13 — TypeScript
+# Level 13 — TypeScript
 
-- [ ] TS Fundamentals
+- [x] TS Fundamentals
 - [ ] React + TypeScript
 - [ ] Props Typing
 - [ ] Event Typing
