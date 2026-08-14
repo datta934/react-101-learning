@@ -18,3 +18,4 @@
 
 
 ## 13.2 React + TypeScript
+<img width="1024" height="1536" alt="13 2" src="https://github.com/user-attachments/assets/a66d9ebb-2aac-4126-8cc9-14a22ca3128c" />
