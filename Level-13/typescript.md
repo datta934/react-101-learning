@@ -15,3 +15,6 @@
 | `keyof`     | Gets keys                 |
 | `typeof`    | Gets type from value      |
 | `as const`  | Literal + readonly        |
+
+
+## 13.2 React + TypeScript
