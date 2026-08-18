@@ -1,7 +1,7 @@
 # Level 13 — TypeScript
 
-- [ ] TS Basics
-- [ ] React + TS
-- [ ] Generics
+- [x] TS Basics
+- [x] React + TS
+- [x] Generics
 - [ ] Utility Types
 - [ ] Advanced Types
